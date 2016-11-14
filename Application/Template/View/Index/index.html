@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" href="__PUBLIC__/css/bootstrap.min.css">
+    <link rel="stylesheet" href="__PUBLIC__/css/fyapp.css">
+    <link rel="stylesheet" href="http://www.jsviews.com/samples/jsrender/composition/tmpl/sample.css">
+    <style>
+        table {
+            width: 100%;
+        }
+    </style>
+    <script type="text/javascript" src="__PUBLIC__/js/jquery-1.12.3.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/js/jsviews.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/js/fyapp.js"></script>
+    <title></title>
+    <script id="movieTemplate" type="text/x-jsrender">
+      <tr>
+        {{include tmpl="#headerTemplate"/}}
+        <td>
+          {{for languages tmpl="#columnTemplate"/}}
+        </td>
+        <!--<td>
+          {{for languages tmpl=tmpl/}}
+        </td>
+        <td>
+          {{for languages tmpl='#conditionalTemplate'/}}
+        </td>
+        {{include tmpl="#sectionWrapperTemplate"}}
+          {{>title}}
+        {{/include}}
+        <td>
+          {{for languages tmpl='#indexWrapperTemplate'}}
+            <b>{{>name}}</b>
+          {{/for}}
+        </td>-->
+      </tr>
+    </script>
+    <script id="headerTemplate" type="text/x-jsrender">
+      <td>{{>title}}</td>
+    </script>
+
+    <script id="sectionWrapperTemplate" type="text/x-jsrender">
+      <td>Section: <em>{{include tmpl=#content/}}</em></td>
+    </script>
+
+    <script id="columnTemplate" type="text/x-jsrender">
+      <div>
+        <em>{{>name}}</em>
+      </div>
+    </script>
+    <script id="rowTemplate" type="text/x-jsrender">
+      <span>
+        <b>{{>name}}</b>
+      </span>
+    </script>
+
+    <script>
+        $.initdata(function () {
+            $.ajax({
+                url: "__DATA__/testdata/data",
+                success: function (msg) {
+                    var data = eval("(" + msg + ")");
+                    $("#movieList").html(
+                        $("#movieTemplate").render(data)
+                    );
+                    $.showpage();
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="container-fluid">
+        <table>
+        <thead>
+          <tr><th>Synopsis</th>
+              <th>Fixed Template</th>
+          <!--<th>Template specified in data</th>
+              <th>Conditional Template</th>
+          <th>Wrapper Template</th>
+              <th>Repeating Wrapper Template</th>-->
+          </tr>
+        </thead>
+        <tbody id="movieList"></tbody>
+        </table>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,557 @@
+.index-page {
+	padding: 0
+}
+.quick-tools {
+	background-color: #333;
+	background-image: linear-gradient(#4d4d4d,#1a1a1a);
+	border-radius: 5px;
+	position: absolute;
+	bottom: 0;
+	left: 64%;
+	margin-left: -480px;
+	margin-bottom: 0
+}
+
+.quick-tools .show .quick-tool {
+	display: block
+}
+
+.quick-tools>li {
+	float: left;
+	position: relative
+}
+
+.quick-tools .quick-tool-title {
+	display: block;
+	height: 64px;
+	line-height: 64px;
+	color: white;
+	width: 160px;
+	font-size: 13px;
+	font-family: "Hiragino Sans GB","Microsoft YaHei",sans-serif;
+	text-align: center;
+	cursor: pointer
+}
+
+.quick-tools .quick-tool-title>.sfi {
+	margin-right: 6px;
+	font-size: 20px;
+	top: 5px
+}
+
+.quick-tools .quick-tool-title:hover {
+	color: #333;
+	background-color: white;
+	text-decoration: none
+}
+
+.quick-tools .quick-tool {
+	display: none;
+	position: absolute;
+	top: -340px;
+	left: 0;
+	background-color: white;
+	border-radius: 3px
+}
+
+.quick-tools .quick-tool .sfi {
+	font-size: 16px;
+	top: 1px
+}
+
+.quick-tools .quick-tool.show {
+	border-radius: 0px
+}
+
+.quick-tools .transparent-separator {
+	border-bottom: transparent 8px solid
+}
+
+.quick-tools .all-tools .quick-tool-title {
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	background-color: gray;
+	background-image: linear-gradient(#929292,#737373)
+}
+
+.quick-tools .all-tools .hover {
+	color: #333 !important;
+	background-color: white !important;
+	background-image: linear-gradient(#ffffff,#ffffff);
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px
+}
+
+.quick-tools .all-tools .quick-tool {
+	right: 0;
+	left: auto
+}
+
+.quick-tools .all-tools .quick-tool .other-query-memo {
+	font-size: 13px;
+	display: block;
+	background: white;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	z-index: 10;
+	padding: 24px
+}
+
+.quick-tools .all-tools .quick-tool .other-query-memo .box {
+	border-bottom: 1px dotted;
+	width: 100%;
+	text-align: left
+}
+
+.quick-tools .all-tools .quick-tool .other-query-memo .more {
+	float: right;
+	color: #eb1d21;
+	margin-top: 5px
+}
+
+.quick-tools .all-tools .quick-tool .other-query-memo .column {
+	padding: 5px 24px 5px 0;
+	min-width: 190px;
+	display: table-cell;
+	vertical-align: top
+}
+
+.quick-tools .all-tools .quick-tool .other-query-memo .column.even {
+	border-left: 1px solid #ECECEC;
+	padding: 5px 0 5px 24px
+}
+
+.quick-tools .all-tools .quick-tool .other-query-memo .title {
+	font-size: 14px;
+	font-family: "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+	color: #eb1d21;
+	margin-bottom: 15px;
+	text-align: left
+}
+
+.quick-tools .all-tools .quick-tool .other-query-memo .column .second-title {
+	font-size: 13px;
+	padding-bottom: 5px;
+	margin-left: 0px;
+	font-family: "Hiragino Sans GB", "Microsoft YaHei", sans-serif
+}
+
+.quick-tools .all-tools .quick-tool .other-query-memo .column li {
+	margin-bottom: 5px
+}
+
+.quick-tools .waybill .quick-tool-title:hover {
+	background: none;
+	color: white
+}
+
+.quick-tools .waybill .quick-tool {
+	position: absolute;
+	background-color: transparent;
+	width: 666px
+}
+
+.quick-tools .waybill .quick-tool .tokenfield .token .close {
+	margin-left: 0;
+	font-size: 15px
+}
+
+.quick-tools .waybill .quick-tool .arrow {
+	position: absolute;
+	left: 27%;
+	margin-left: -9px;
+	bottom: -9px;
+	display: block;
+	width: 0;
+	height: 0;
+	border-color: transparent;
+	border-width: 9px;
+	border-top-color: #ddd;
+	border-top-color: rgba(0,0,0,0.15);
+	border-bottom-width: 0;
+	border-style: solid
+}
+
+.quick-tools .waybill .quick-tool .arrow:after {
+	content: '';
+	display: block;
+	width: 0;
+	height: 0;
+	position: absolute;
+	border-color: transparent;
+	border-width: 9px;
+	border-top-color: #fff;
+	border-bottom-width: 0;
+	border-style: solid;
+	left: -9px;
+	bottom: 1px
+}
+
+.quick-tools .waybill .quick-tool.inithack {
+	display: block;
+	visibility: hidden
+}
+
+.quick-tools .waybill .quick-tool.show {
+	display: block
+}
+
+.quick-tools .waybill .quick-tool .links {
+	position: relative;
+	background-color: #eb1d21;
+	background-image: linear-gradient(#f7282c,#c21e22);
+	height: 48px;
+	border-radius: 3px
+}
+
+.quick-tools .waybill .quick-tool .links:before,.quick-tools .waybill .quick-tool .links:after {
+	content: " ";
+	display: table
+}
+
+.quick-tools .waybill .quick-tool .links:after {
+	clear: both
+}
+
+.quick-tools .waybill .quick-tool .links .link {
+	float: left;
+	font-size: 13px;
+	width: 50%;
+	font-family: "Hiragino Sans GB","Microsoft YaHei",sans-serif;
+	line-height: 48px;
+	text-align: center;
+	color: #fff
+}
+
+.quick-tools .waybill .quick-tool .links .link:hover {
+	text-decoration: none
+}
+
+.quick-tools .waybill .quick-tool .links .link__left {
+	border-right: 1px solid #a11e21
+}
+
+.quick-tools .waybill .quick-tool .links .link__right {
+	border-left: 1px solid #f66a6d
+}
+
+.quick-tools .waybill .quick-tool .go-waybill-by-phone-num.go-dynamic {
+	display: block;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	margin: 15px 15px;
+	min-width: 32px;
+	line-height: 36px;
+	text-decoration: none !important
+}
+
+.quick-tools .waybill .quick-tool .go-waybill-by-phone-num.go-dynamic:hover {
+	text-decoration: none
+}
+
+.quick-tools .waybill .quick-tool .go-waybill-by-phone-num.go-dynamic>.text {
+	line-height: 32px;
+	margin-right: 10px;
+	display: inline-block
+}
+
+.quick-tools .waybill .quick-tool .go-waybill-by-phone-num.go-dynamic>.sfi {
+	font-size: 20px;
+	line-height: 32px;
+	top: 5px;
+	margin-right: 5px
+}
+
+.quick-tools .waybill .quick-tool .go-waybill-by-phone-num.go-dynamic:before {
+	content: '';
+	position: absolute;
+	right: 0;
+	top: 5px;
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+	box-shadow: none
+}
+
+.quick-tools .waybill .quick-tool .bill-number {
+	border-top-right-radius: 3px;
+	border-top-left-radius: 3px;
+	background-color: #FFFFFF;
+	min-height: 170px;
+	text-align: left;
+	padding: 15px 20px;
+	transition: min-height 120ms
+}
+
+.quick-tools .waybill .quick-tool .bill-number .sfi-search {
+	display: none
+}
+
+.quick-tools .waybill .quick-tool .bill-number .error-block {
+	display: block
+}
+
+.quick-tools .waybill .quick-tool .bill-number .go-dynamic {
+	text-decoration: underline;
+	font-size: 12px;
+	text-align: right;
+	margin-top: 25px;
+	max-width: 150px;
+	display: block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap
+}
+
+.quick-tools .waybill .quick-tool .bill-number.folded {
+	min-height: 0;
+	position: relative
+}
+
+.quick-tools .waybill .quick-tool .bill-number.folded .go-dynamic {
+	margin-top: 15px
+}
+
+.quick-tools .waybill .quick-tool .bill-number.folded .go-waybill-by-phone-num>.text {
+	display: none
+}
+
+.quick-tools .waybill .quick-tool .bill-number.folded .go-waybill-by-phone-num>.sfi {
+	top: 3px;
+	line-height: 36px
+}
+
+.quick-tools .waybill .quick-tool .bill-number.folded .go-waybill-by-phone-num:before {
+	box-shadow: inset 0 0 5px rgba(0,0,0,0.15)
+}
+
+.quick-tools .waybill .quick-tool .bill-number.folded .notice {
+	display: none
+}
+
+.quick-tools .waybill .quick-tool .bill-number.folded .sfi-search {
+	display: block;
+	position: absolute;
+	left: 10px;
+	top: -2px;
+	height: 40px;
+	line-height: 40px;
+	color: gray;
+	z-index: 10
+}
+
+.quick-tools .waybill .quick-tool .bill-number.folded .tokenfield {
+	min-height: 0;
+	padding-left: 30px;
+	position: relative;
+	overflow: hidden
+}
+
+.quick-tools .waybill .quick-tool .bill-number.folded .primary-button {
+	display: none
+}
+
+.quick-tools .waybill .quick-tool .bill-number:before,.quick-tools .waybill .quick-tool .bill-number:after {
+	content: " ";
+	display: table
+}
+
+.quick-tools .waybill .quick-tool .bill-number:after {
+	clear: both
+}
+
+.quick-tools .waybill .quick-tool .bill-number .bill-numbers-input {
+	width: 278px;
+	height: 87px;
+	padding: 10px 15px
+}
+
+.quick-tools .waybill .quick-tool .bill-number .error {
+	margin: 5px 5px 0
+}
+
+.quick-tools .waybill .quick-tool .bill-number .form-wrap {
+	position: relative;
+	box-shadow: inset 0 0 10px rgba(0,0,0,0.2);
+	border: 1px solid #e1e1e0
+}
+
+.quick-tools .waybill .quick-tool .bill-number .form-wrap .notice {
+	color: #ccc;
+	font-size: 12px;
+	padding: 0 10px 5px
+}
+
+.quick-tools .waybill .quick-tool .bill-number .primary-button {
+	float: left;
+	margin-top: 15px
+}
+
+.quick-tools .waybill .quick-tool .bill-number .tokenfield {
+	transition: min-height 120ms;
+	height: auto;
+	min-height: 87px;
+	max-height: 300px;
+	overflow-x: hidden;
+	overflow-y: auto;
+	box-shadow: none;
+	border: none;
+	background: none;
+	text-align: left;
+}
+.show {
+	display: block
+}
+.show {
+	padding-left: 8px;
+	text-align: left
+}
+.show {
+	display: block !important
+}
+.tokenfield {
+	min-height: 39px;
+	box-shadow: none;
+	border: -1px solid transparent
+}
+
+.tokenfield.form-control {
+	padding: 7px
+}
+
+.tokenfield.focus {
+	border-color: #66afe9;
+	outline: 0;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(102,175,233,0.6)
+}
+
+.tokenfield.disabled {
+	cursor: not-allowed;
+	background-color: #eee
+}
+
+.tokenfield.disabled .token-input {
+	cursor: not-allowed
+}
+
+.tokenfield.disabled .close:hover {
+	cursor: not-allowed;
+	opacity: 0.2
+}
+
+.tokenfield .token-input {
+	background: none;
+	min-width: 60px;
+	width: 100%;
+	border: 1px solid transparent;
+	line-height: 24px;
+	font-size: 13px;
+	box-shadow: none;
+	height: 24px;
+	padding: 0
+}
+
+.tokenfield .token-input:focus {
+	border-color: transparent;
+	outline: 0;
+	box-shadow: none
+}
+
+.tokenfield .token {
+	box-sizing: border-box;
+	display: inline-block;
+	border-radius: 3px;
+	margin: -1px 5px 5px 0;
+	vertical-align: top;
+	cursor: default;
+	padding: 0 7px;
+	height: 24px;
+	line-height: 24px;
+	border: 1px solid #f2f2f2;
+	background-color: #f2f2f2;
+	font-size: 13px
+}
+
+.tokenfield .token:hover,.tokenfield .token.active {
+	border-color: #e08484
+}
+
+.tokenfield .token.duplicate {
+	border-color: #b94a48
+}
+
+.tokenfield .token.invalid {
+	background: none;
+	border: 1px solid transparent;
+	border-radius: 0;
+	border-bottom: 1px dotted #b94a48
+}
+
+.tokenfield .token.invalid.active {
+	background: #ededed;
+	border: 1px solid #ededed;
+	border-radius: 3px
+}
+
+.tokenfield .token .token-label {
+	display: inline-block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-size: 13px;
+	color: gray;
+	white-space: nowrap
+}
+
+.tokenfield .token .close {
+	font-family: "Hiragino Sans GB",simsun,"Microsoft YaHei",sans-serif;
+	display: inline-block;
+	margin-left: 7px;
+	line-height: 24px
+}
+.form-control {
+	display: block;
+	width: 100%;
+	height: 32px;
+	padding: 6px 12px;
+	font-size: 13px;
+	line-height: 1.42857;
+	color: #333;
+	vertical-align: middle;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 0;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+	-webkit-transition: border-color ease-in-out 0.15s,box-shadow ease-in-out 0.15s;
+	transition: border-color ease-in-out 0.15s,box-shadow ease-in-out 0.15s
+}
+
+.form-control:focus {
+	border-color: #66afe9;
+	outline: 0;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(102,175,233,0.6);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(102,175,233,0.6)
+}
+
+.form-control:-moz-placeholder {
+	color: #bfbfbf
+}
+
+.form-control::-moz-placeholder {
+	color: #bfbfbf
+}
+
+.form-control:-ms-input-placeholder {
+	color: #bfbfbf
+}
+
+.form-control::-webkit-input-placeholder {
+	color: #bfbfbf
+}
+
+.form-control[disabled],.form-control[readonly],fieldset[disabled] .form-control {
+	cursor: not-allowed;
+	background-color: #f2f2f2
+}

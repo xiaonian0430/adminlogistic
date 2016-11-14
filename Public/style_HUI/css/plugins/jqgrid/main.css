@@ -1,0 +1,147 @@
+        .wrapper,.jqGrid_wrapper,.ui-jqgrid,.ui-jqgrid-view ,.ibox-content      
+        {
+            height: 100%;
+        }
+        .ui-jqgrid-bdiv 
+        {
+            height: 83%;
+        }
+        .table-responsive
+        {
+        	overflow-x: hidden;
+        }
+        ::-webkit-scrollbar    /*滚动边框宽度*/
+		{
+			width: 12px;
+			background-color: #F5F5F5;
+		}
+        .wrapper-content       /* 窗口页去掉底部的边距，页面更接近于底部*/
+        {
+            padding-bottom: 10px;
+        }
+        .wrapper, .jqGrid_wrapper, .ui-jqgrid, .ui-jqgrid-view
+        {
+            height: 100%;
+        }
+        #content-main          /*微调窗口页的大小，减少最底部的透明像素*/
+        {
+            height: calc(100% - 78px);
+        }
+       #pager_list_2            /*显示翻页*/
+        {
+        	top: -36px;
+        }
+        #searchmodfbox_table_list_2  /* 搜索弹出框剧中定位*/
+        {
+            left:calc(50% - 225px) !important;  
+        }
+        .ui-jqgrid .ui-jqgrid-pager .navtable, .ui-jqgrid .ui-jqgrid-toppager .navtable  /*搜索和重置按钮定位*/
+        {
+             table-layout: auto;
+             display: none;
+/*            position: fixed;
+            top: 21px;
+            height: 39px;
+            right: 130px;
+            font-size: 16px;
+            display: none;*/
+        }
+        .ui-jqgrid .ui-pg-button span          /* 按钮边距*/
+        {
+            padding: 7px 0px;
+            margin-left: 25px;
+            margin-right: 25px;
+        }
+        .ui-pg-div
+        {
+            background-color: #f9f9f9;
+            border:none;
+        }
+        .ui-jqgrid .ui-pg-table td
+        {
+            padding: 0px;
+        }
+        .ui-jqgrid .ui-jqgrid-pager .ui-pager-control    /* 翻页栏元素剧中*/
+        {
+            margin-top: -3.5px;
+        }
+        .glyphicon-file                /*导出数据按钮*/
+        {
+            position: absolute;
+            top: 23px;
+            right: 57px;
+            font-size: 16px;
+            width: 67px;
+            padding: 10.5px 0;
+            text-align: center;
+        }
+        .ui-jqgrid .ui-pg-input        /*翻页栏字体增大便于对齐*/
+        {
+            font-size: 1.1em;
+            text-align: center;
+        }
+        #input_pager_list_2
+        {
+            padding-top: 3px;
+        }
+        .ui-separator 
+        {
+            margin-top: 3px !important;
+        }
+        #pager_list_2_right
+        {
+            padding-top: 9px;
+        }
+        .ui-jqgrid-pager .ui-pg-table .ui-pg-button:hover
+        {
+            background-color: #f9f9f9;
+        }
+       .ui-jqgrid .ui-userdata-top
+        {
+           background-color: #f5f5f6;
+           border-top: 1px solid #A2A2A2;
+           border-bottom: 1px solid #A2A2A2;
+        }
+        .btn-primary ,.btn-info ,.btn-success
+        {
+            padding: 5px 0 8px 0;
+            margin-bottom: 2px;
+            font-size: 10px;
+            margin: 0px 4px;
+            height: 28px;
+            width: 65px;
+        }
+        .modal-content
+        {
+          top: 65px !important;
+          left: calc(50% - 250px) !important;
+          height: auto !important;
+          width: 500px !important;
+        }
+        #tr_id ,#tr_total
+        {
+            display: none;
+        }
+        .btn-w-m
+        {
+            min-width: 65px;
+            padding: 3px 4px;
+            margin: 0 2% !important;
+        }
+        .ui-jqdialog-content td.navButton
+        {
+            display: none;
+        }
+        .glyphicon-search
+        {
+            font-size: 1.2em;
+            cursor:pointer;
+        }
+            .glyphicon
+    {
+        color: #676a6c !important;
+    }
+    .glyphicon:hover
+    {
+        color: rgb(35,198,200)!important;
+    }

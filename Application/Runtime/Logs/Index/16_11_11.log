@@ -1,0 +1,1286 @@
+[ 2016-11-11T17:53:58+08:00 ] 222.85.131.181 /index.php/index/user/user_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0008s ]
+SQL: SELECT userx.id u_id,userx.name u_name,userx.branch_id u_branch_id,userx.waycompany_id u_waycompany_id,r.name u_role_name,r.code u_role_code,r.sub_role u_sub_role FROM wl_user userx join wl_role_user ru on ru.user_id=userx.id left join wl_role r on r.id=ru.role_id  WHERE `username` = 'test05_02' AND `password` = '6862f65627f31ad3eb6fb04f11934bbd' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-11-11T17:54:04+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000400s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858044' WHERE `id` = 79 [ RunTime:0.0134s ]
+
+[ 2016-11-11T17:54:15+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0009s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858054' WHERE `id` = 79 [ RunTime:0.0154s ]
+
+[ 2016-11-11T17:54:25+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858065' WHERE `id` = 79 [ RunTime:0.0181s ]
+
+[ 2016-11-11T17:54:35+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0009s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858075' WHERE `id` = 79 [ RunTime:0.0128s ]
+
+[ 2016-11-11T17:54:45+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0009s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858085' WHERE `id` = 79 [ RunTime:0.0166s ]
+
+[ 2016-11-11T17:54:55+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0009s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858095' WHERE `id` = 79 [ RunTime:0.0142s ]
+
+[ 2016-11-11T17:55:05+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0009s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858105' WHERE `id` = 79 [ RunTime:0.0171s ]
+
+[ 2016-11-11T17:55:15+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858115' WHERE `id` = 79 [ RunTime:0.0152s ]
+
+[ 2016-11-11T17:55:25+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000361s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858125' WHERE `id` = 79 [ RunTime:0.0143s ]
+
+[ 2016-11-11T17:55:35+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0009s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858135' WHERE `id` = 79 [ RunTime:0.0158s ]
+
+[ 2016-11-11T17:55:45+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000358s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858145' WHERE `id` = 79 [ RunTime:0.0139s ]
+
+[ 2016-11-11T17:55:56+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858156' WHERE `id` = 79 [ RunTime:0.0156s ]
+
+[ 2016-11-11T17:56:06+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000437s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0014s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858166' WHERE `id` = 79 [ RunTime:0.0158s ]
+
+[ 2016-11-11T17:56:16+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0009s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858176' WHERE `id` = 79 [ RunTime:0.0138s ]
+
+[ 2016-11-11T17:56:26+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858186' WHERE `id` = 79 [ RunTime:0.0127s ]
+
+[ 2016-11-11T17:56:36+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858196' WHERE `id` = 79 [ RunTime:0.0124s ]
+
+[ 2016-11-11T17:56:46+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858206' WHERE `id` = 79 [ RunTime:0.0156s ]
+
+[ 2016-11-11T17:56:56+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858216' WHERE `id` = 79 [ RunTime:0.0131s ]
+
+[ 2016-11-11T17:57:06+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858226' WHERE `id` = 79 [ RunTime:0.0136s ]
+
+[ 2016-11-11T17:57:17+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000378s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858237' WHERE `id` = 79 [ RunTime:0.0120s ]
+
+[ 2016-11-11T17:57:27+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858247' WHERE `id` = 79 [ RunTime:0.0160s ]
+
+[ 2016-11-11T17:57:37+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858257' WHERE `id` = 79 [ RunTime:0.0116s ]
+
+[ 2016-11-11T17:57:47+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858267' WHERE `id` = 79 [ RunTime:0.0146s ]
+
+[ 2016-11-11T17:57:57+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858277' WHERE `id` = 79 [ RunTime:0.0308s ]
+
+[ 2016-11-11T17:58:07+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858287' WHERE `id` = 79 [ RunTime:0.0139s ]
+
+[ 2016-11-11T17:58:17+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0009s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858297' WHERE `id` = 79 [ RunTime:0.0132s ]
+
+[ 2016-11-11T17:58:27+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858307' WHERE `id` = 79 [ RunTime:0.0227s ]
+
+[ 2016-11-11T17:58:37+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0011s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858317' WHERE `id` = 79 [ RunTime:0.0147s ]
+
+[ 2016-11-11T17:58:47+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858327' WHERE `id` = 79 [ RunTime:0.0163s ]
+
+[ 2016-11-11T17:58:58+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858338' WHERE `id` = 79 [ RunTime:0.0325s ]
+
+[ 2016-11-11T17:59:08+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0009s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858348' WHERE `id` = 79 [ RunTime:0.0127s ]
+
+[ 2016-11-11T17:59:18+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858358' WHERE `id` = 79 [ RunTime:0.0177s ]
+
+[ 2016-11-11T17:59:28+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858368' WHERE `id` = 79 [ RunTime:0.0138s ]
+
+[ 2016-11-11T17:59:38+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000360s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0009s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858378' WHERE `id` = 79 [ RunTime:0.0146s ]
+
+[ 2016-11-11T17:59:48+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858388' WHERE `id` = 79 [ RunTime:0.0136s ]
+
+[ 2016-11-11T17:59:58+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0009s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858398' WHERE `id` = 79 [ RunTime:0.0148s ]
+
+[ 2016-11-11T18:00:08+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858408' WHERE `id` = 79 [ RunTime:0.0196s ]
+
+[ 2016-11-11T18:00:18+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000358s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858418' WHERE `id` = 79 [ RunTime:0.0446s ]
+
+[ 2016-11-11T18:00:29+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858429' WHERE `id` = 79 [ RunTime:0.0199s ]
+
+[ 2016-11-11T18:00:39+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0009s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858439' WHERE `id` = 79 [ RunTime:0.0151s ]
+
+[ 2016-11-11T18:00:49+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0009s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858449' WHERE `id` = 79 [ RunTime:0.0193s ]
+
+[ 2016-11-11T18:00:59+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858459' WHERE `id` = 79 [ RunTime:0.0139s ]
+
+[ 2016-11-11T18:01:09+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858469' WHERE `id` = 79 [ RunTime:0.0145s ]
+
+[ 2016-11-11T18:01:19+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000377s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0009s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858479' WHERE `id` = 79 [ RunTime:0.0136s ]
+
+[ 2016-11-11T18:01:29+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0009s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858489' WHERE `id` = 79 [ RunTime:0.0123s ]
+
+[ 2016-11-11T18:01:39+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858499' WHERE `id` = 79 [ RunTime:0.0341s ]
+
+[ 2016-11-11T18:01:50+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0009s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858510' WHERE `id` = 79 [ RunTime:0.0173s ]
+
+[ 2016-11-11T18:02:00+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858520' WHERE `id` = 79 [ RunTime:0.0195s ]
+
+[ 2016-11-11T18:02:10+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000395s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0009s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858530' WHERE `id` = 79 [ RunTime:0.0142s ]
+
+[ 2016-11-11T18:02:20+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000400s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858540' WHERE `id` = 79 [ RunTime:0.0144s ]
+
+[ 2016-11-11T18:02:30+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858550' WHERE `id` = 79 [ RunTime:0.0135s ]
+
+[ 2016-11-11T18:02:40+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0009s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858560' WHERE `id` = 79 [ RunTime:0.0133s ]
+
+[ 2016-11-11T18:02:50+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858570' WHERE `id` = 79 [ RunTime:0.0147s ]
+
+[ 2016-11-11T18:03:00+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858580' WHERE `id` = 79 [ RunTime:0.0125s ]
+
+[ 2016-11-11T18:03:11+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0009s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858591' WHERE `id` = 79 [ RunTime:0.0136s ]
+
+[ 2016-11-11T18:03:21+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000362s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858601' WHERE `id` = 79 [ RunTime:0.0142s ]
+
+[ 2016-11-11T18:03:31+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858611' WHERE `id` = 79 [ RunTime:0.0161s ]
+
+[ 2016-11-11T18:03:41+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858621' WHERE `id` = 79 [ RunTime:0.0140s ]
+
+[ 2016-11-11T18:03:51+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0009s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858631' WHERE `id` = 79 [ RunTime:0.0190s ]
+
+[ 2016-11-11T18:04:01+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000493s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858641' WHERE `id` = 79 [ RunTime:0.0134s ]
+
+[ 2016-11-11T18:04:11+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858651' WHERE `id` = 79 [ RunTime:0.0145s ]
+
+[ 2016-11-11T18:04:21+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0009s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858661' WHERE `id` = 79 [ RunTime:0.0133s ]
+
+[ 2016-11-11T18:04:31+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0009s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858671' WHERE `id` = 79 [ RunTime:0.0197s ]
+
+[ 2016-11-11T18:04:42+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858682' WHERE `id` = 79 [ RunTime:0.0145s ]
+
+[ 2016-11-11T18:04:52+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858692' WHERE `id` = 79 [ RunTime:0.0226s ]
+
+[ 2016-11-11T18:05:02+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0009s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858702' WHERE `id` = 79 [ RunTime:0.0123s ]
+
+[ 2016-11-11T18:05:12+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000377s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0009s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858712' WHERE `id` = 79 [ RunTime:0.0197s ]
+
+[ 2016-11-11T18:05:22+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0009s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858722' WHERE `id` = 79 [ RunTime:0.0440s ]
+
+[ 2016-11-11T18:05:32+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0009s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858732' WHERE `id` = 79 [ RunTime:0.0164s ]
+
+[ 2016-11-11T18:05:42+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858742' WHERE `id` = 79 [ RunTime:0.0181s ]
+
+[ 2016-11-11T18:05:52+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000377s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0009s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858752' WHERE `id` = 79 [ RunTime:0.0154s ]
+
+[ 2016-11-11T18:06:02+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0009s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858762' WHERE `id` = 79 [ RunTime:0.0125s ]
+
+[ 2016-11-11T18:06:13+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0011s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858773' WHERE `id` = 79 [ RunTime:0.0118s ]
+
+[ 2016-11-11T18:06:23+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858783' WHERE `id` = 79 [ RunTime:0.0136s ]
+
+[ 2016-11-11T18:06:33+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858793' WHERE `id` = 79 [ RunTime:0.0132s ]
+
+[ 2016-11-11T18:06:43+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0009s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858803' WHERE `id` = 79 [ RunTime:0.0126s ]
+
+[ 2016-11-11T18:06:53+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0009s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858813' WHERE `id` = 79 [ RunTime:0.0156s ]
+
+[ 2016-11-11T18:07:03+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000454s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858823' WHERE `id` = 79 [ RunTime:0.0136s ]
+
+[ 2016-11-11T18:07:13+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858833' WHERE `id` = 79 [ RunTime:0.0145s ]
+
+[ 2016-11-11T18:07:23+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858843' WHERE `id` = 79 [ RunTime:0.0125s ]
+
+[ 2016-11-11T18:07:34+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0009s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858854' WHERE `id` = 79 [ RunTime:0.0179s ]
+
+[ 2016-11-11T18:07:44+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858864' WHERE `id` = 79 [ RunTime:0.0139s ]
+
+[ 2016-11-11T18:07:54+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858874' WHERE `id` = 79 [ RunTime:0.0243s ]
+
+[ 2016-11-11T18:08:04+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000476s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858884' WHERE `id` = 79 [ RunTime:0.0206s ]
+
+[ 2016-11-11T18:08:14+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000442s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858894' WHERE `id` = 79 [ RunTime:0.0143s ]
+
+[ 2016-11-11T18:08:24+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858904' WHERE `id` = 79 [ RunTime:0.0116s ]
+
+[ 2016-11-11T18:08:34+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858914' WHERE `id` = 79 [ RunTime:0.0140s ]
+
+[ 2016-11-11T18:08:44+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858924' WHERE `id` = 79 [ RunTime:0.0128s ]
+
+[ 2016-11-11T18:08:55+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858935' WHERE `id` = 79 [ RunTime:0.0161s ]
+
+[ 2016-11-11T18:09:05+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0009s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858945' WHERE `id` = 79 [ RunTime:0.0136s ]
+
+[ 2016-11-11T18:09:15+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858955' WHERE `id` = 79 [ RunTime:0.0138s ]
+
+[ 2016-11-11T18:09:25+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0009s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858965' WHERE `id` = 79 [ RunTime:0.0127s ]
+
+[ 2016-11-11T18:09:35+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000609s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858975' WHERE `id` = 79 [ RunTime:0.0144s ]
+
+[ 2016-11-11T18:09:45+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858985' WHERE `id` = 79 [ RunTime:0.0142s ]
+
+[ 2016-11-11T18:09:55+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0009s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478858995' WHERE `id` = 79 [ RunTime:0.0128s ]
+
+[ 2016-11-11T18:10:05+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478859005' WHERE `id` = 79 [ RunTime:0.0158s ]
+
+[ 2016-11-11T18:10:15+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0009s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478859015' WHERE `id` = 79 [ RunTime:0.0126s ]
+
+[ 2016-11-11T18:10:26+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0009s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478859026' WHERE `id` = 79 [ RunTime:0.0152s ]
+
+[ 2016-11-11T18:10:36+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0009s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478859036' WHERE `id` = 79 [ RunTime:0.0144s ]
+
+[ 2016-11-11T18:10:46+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000360s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478859046' WHERE `id` = 79 [ RunTime:0.0213s ]
+
+[ 2016-11-11T18:10:56+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478859056' WHERE `id` = 79 [ RunTime:0.0201s ]
+
+[ 2016-11-11T18:11:06+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0009s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478859066' WHERE `id` = 79 [ RunTime:0.0145s ]
+
+[ 2016-11-11T18:11:16+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478859076' WHERE `id` = 79 [ RunTime:0.0285s ]
+
+[ 2016-11-11T18:11:26+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0009s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478859086' WHERE `id` = 79 [ RunTime:0.0142s ]
+
+[ 2016-11-11T18:11:36+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000360s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478859096' WHERE `id` = 79 [ RunTime:0.0175s ]
+
+[ 2016-11-11T18:11:46+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000435s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478859106' WHERE `id` = 79 [ RunTime:0.0158s ]
+
+[ 2016-11-11T18:11:57+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0009s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478859117' WHERE `id` = 79 [ RunTime:0.0131s ]
+
+[ 2016-11-11T18:12:07+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000415s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478859127' WHERE `id` = 79 [ RunTime:0.0170s ]
+
+[ 2016-11-11T18:12:17+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0009s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478859137' WHERE `id` = 79 [ RunTime:0.0128s ]
+
+[ 2016-11-11T18:12:27+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478859147' WHERE `id` = 79 [ RunTime:0.0282s ]
+
+[ 2016-11-11T18:12:37+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000454s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0009s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478859157' WHERE `id` = 79 [ RunTime:0.0121s ]
+
+[ 2016-11-11T18:12:47+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478859167' WHERE `id` = 79 [ RunTime:0.0145s ]
+
+[ 2016-11-11T18:12:57+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0009s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478859177' WHERE `id` = 79 [ RunTime:0.0138s ]
+
+[ 2016-11-11T18:13:07+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0009s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478859187' WHERE `id` = 79 [ RunTime:0.0159s ]
+
+[ 2016-11-11T18:13:17+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478859197' WHERE `id` = 79 [ RunTime:0.0156s ]
+
+[ 2016-11-11T18:13:28+08:00 ] 222.85.131.181 /index.php/index/back/call
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0012s ]
+SQL: SELECT `id` FROM `wl_user` WHERE `username` = 'sxd11112' AND `key` = '893f857e7d17400ee32ab8ffd03b740c' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wl_user` SET `longitude`='116.403624',`latitude`='39.913248',`online_time`='1478859208' WHERE `id` = 79 [ RunTime:0.0137s ]
+
